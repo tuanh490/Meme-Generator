@@ -3,12 +3,10 @@ import trollFace from "../assets/troll-face.png"
 
 export default function Header() {
     return (
-        <header>
-            <section>
-                <img src={trollFace} alt="" />
-                <h3>MemeGenerator</h3>
-            </section>
-            <span>React Course - Project 3</span>
+        <header className="header">
+            <img src={trollFace} alt="" className="troll-face" />
+            <h3 className="project-name">Meme Generator</h3>
+            <span className="course">React Course - Project 3</span>
         </header>
     )
 }
