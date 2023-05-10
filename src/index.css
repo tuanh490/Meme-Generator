@@ -27,5 +27,64 @@ body {
 
 .course {
     margin-left: auto;
+    font-size: 1arem;
+}
+
+.meme-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.text-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.top-text,
+.bottom-text {
+    padding: 10px;
+    padding-left: 10px;
+    width: 300px;
+    border: 2px solid #D5D4D8;
+    border-radius: 5px;
+    transition: border 0.25s;
+    font-family: Karla, sans-serif;
+}
+
+.bottom-text {
+    margin-left: 40px;
+}
+
+.top-text:focus,
+.top-text:hover,
+.bottom-text:focus,
+.bottom-text:hover {
+    outline: none;
+    border: 2px solid purple;
+}
+
+.get-image-btn {
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background: linear-gradient(#672280, #A626D3);
+    color: white;
+    font-weight: 700;
+    font-family: Karla, sans-serif;
     font-size: 1rem;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.get-image-btn:hover,
+.get-image-btn:focus {
+    outline: none;
+    transform: translatey(-3px);
+    box-shadow: 0 3px 5px rgba(103, 34, 128, 0.4);
 }
